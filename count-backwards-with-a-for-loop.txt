@@ -1,0 +1,8 @@
+// Setup
+var myArray = [];
+
+// Only change code below this line
+for (var j = 9; j > 0; j -= 2) {
+  myArray.push(j);
+}
+console.log(myArray);
