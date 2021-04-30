@@ -1,0 +1,12 @@
+const createPerson = (name, age, gender) => ({
+  // Only change code below this line
+  name,
+  age,
+  gender
+  // Only change code above this line
+});
+var person = createPerson("Victor", 23, "Male")
+
+console.log(person.gender)
+console.log(person.name)
+console.log(person.age)
