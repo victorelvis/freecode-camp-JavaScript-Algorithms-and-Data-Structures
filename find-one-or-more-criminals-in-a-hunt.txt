@@ -1,0 +1,4 @@
+let crowd = "P6P2P7P4P5CCCCCCCCCCCCCP3P1";
+let reCriminals = /C+/; // Change this line
+let matchedCriminals = crowd.match(reCriminals);
+console.log(matchedCriminals)
